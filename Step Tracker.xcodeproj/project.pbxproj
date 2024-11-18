@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80141BA52CEBB93000EE4FCA /* HealthDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80141BA42CEBB93000EE4FCA /* HealthDataListView.swift */; };
 		80BD5E842CE3DA80007AF1C6 /* Step_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD5E832CE3DA80007AF1C6 /* Step_TrackerApp.swift */; };
-		80BD5E862CE3DA80007AF1C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD5E852CE3DA80007AF1C6 /* ContentView.swift */; };
+		80BD5E862CE3DA80007AF1C6 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD5E852CE3DA80007AF1C6 /* DashboardView.swift */; };
 		80BD5E882CE3DA84007AF1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BD5E872CE3DA84007AF1C6 /* Assets.xcassets */; };
 		80BD5E8B2CE3DA84007AF1C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BD5E8A2CE3DA84007AF1C6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80141BA42CEBB93000EE4FCA /* HealthDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataListView.swift; sourceTree = "<group>"; };
 		80BD5E802CE3DA80007AF1C6 /* Step Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BD5E832CE3DA80007AF1C6 /* Step_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_TrackerApp.swift; sourceTree = "<group>"; };
-		80BD5E852CE3DA80007AF1C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80BD5E852CE3DA80007AF1C6 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		80BD5E872CE3DA84007AF1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80BD5E8A2CE3DA84007AF1C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				80BD5E832CE3DA80007AF1C6 /* Step_TrackerApp.swift */,
-				80BD5E852CE3DA80007AF1C6 /* ContentView.swift */,
+				80BD5E852CE3DA80007AF1C6 /* DashboardView.swift */,
+				80141BA42CEBB93000EE4FCA /* HealthDataListView.swift */,
 				80BD5E872CE3DA84007AF1C6 /* Assets.xcassets */,
 				80BD5E892CE3DA84007AF1C6 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80BD5E862CE3DA80007AF1C6 /* ContentView.swift in Sources */,
+				80141BA52CEBB93000EE4FCA /* HealthDataListView.swift in Sources */,
+				80BD5E862CE3DA80007AF1C6 /* DashboardView.swift in Sources */,
 				80BD5E842CE3DA80007AF1C6 /* Step_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
