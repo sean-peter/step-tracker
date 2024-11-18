@@ -37,7 +37,7 @@ struct ContentView: View {
         
         NavigationStack{
             ScrollView{
-                VStack(spacing: 20){
+                VStack(spacing: 21){
                     
                     Picker("Selected Stat", selection: $selectedStat) {
                         ForEach(HealthMetricContext.allCases) { metric in
