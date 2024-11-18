@@ -30,6 +30,9 @@ struct ContentView: View {
     
     @State private var selectedStat: HealthMetricContext = .steps
     
+    var isSteps: Bool { selectedStat == .steps }
+    
+    
     var body: some View {
         
         NavigationStack{
@@ -121,6 +124,7 @@ struct ContentView: View {
                 Text(metric.title)
             }
         }
+        .tint(isSteps ? .pink : .indigo)
         
   
         
