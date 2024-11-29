@@ -95,10 +95,10 @@ struct DashboardView: View {
                                     Text("Last 28 Days")
                                         .font(.caption)
                                         .foregroundStyle(.secondary)
-
+                                    
                                 }
                                 
-                               
+                                
                                 
                             }
                             .padding(.bottom, 12)
